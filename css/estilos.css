@@ -1,0 +1,540 @@
+* {
+	font-size: 62.5%;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+
+	font-family: 'IBM Plex Serif', serif;
+	color: #1a1a1a;
+	font-size: 2rem;
+	background-color: #e6e6e6;
+
+}
+
+/*HEADER*/
+
+nav {
+
+	background-color: #e6e6e6;
+}
+
+
+body header nav div ul li{
+
+	font-size: 3rem;
+	
+}
+
+.navbar-light .navbar-nav .nav-link{
+
+	color: #1a1a1a;
+	opacity: 100%;
+	text-align: right;
+	padding: 10px;
+	
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+
+	background-color: #d99cc5;
+	border-bottom: solid 3px;
+	margin-bottom: -3px;
+}
+
+.navbar .navbar-toggler-icon {
+background-image: url('https://mdbootstrap.com/img/svg/hamburger7.svg?color=1a1a1a');
+}
+
+.navbar-light .navbar-toggler {
+
+	border: solid 2px;
+}
+
+main {
+	margin-top: 70px;
+}
+
+
+/*FOOTER*/
+
+footer {
+
+	background-color: #d99cc5;
+	display: flex;
+	align-content: flex-end;
+	justify-content: center;
+	border-top: solid 3px;
+	border-bottom: solid 3px;
+
+}
+
+footer div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 5px;
+	margin: 10px;
+}
+
+footer div a {
+
+	color:#1a1a1a;
+	font-size: 1.5rem;
+	padding-left: 5px;
+}
+
+footer div a:hover {
+
+	color:#e6e6e6;
+	text-decoration: none;
+	font-size: 1.5rem;
+	padding-left: 5px;
+}
+
+.icono img{
+
+	height: 2rem;
+}
+
+.icono {
+
+	background-color:  #e6e6e6;
+	border: solid 2px;
+	border-radius: 2rem;
+
+	display: flex;
+	justify-content: center;
+
+	height: 4rem;
+	width: 4rem;
+
+}
+
+/*INDEX*/
+
+
+
+.bienvenido {
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	position: absolute;
+	background-size: contain;
+
+
+	background: url(bienvenidos_fondo_wide.jpg);
+
+}
+
+.texto_bienvenido {
+
+	margin-top: 10%;
+}
+.bienvenido h1 {
+
+	font-size: 15rem;
+	font-weight: 500;
+	text-align: center;
+
+}
+
+.bienvenido h2 {
+
+	font-size: 4rem;
+	font-weight: 400;
+	font-style: italic;
+	text-align: center;
+}
+
+.bienvenido h3 {
+
+	font-size: 4rem;
+	color: #d99cc5;
+	font-weight: 500;
+	font-style: italic;
+	text-align: center;
+
+}
+
+.quehago_index {
+
+	background-color:  #d99cc5;
+	padding: 15vh 10vh 15vh 10vh;
+	margin-bottom: 30px;
+
+}
+
+.quehago_index h2 {
+
+	font-size: 4rem;
+	font-weight: 500;
+	font-style: italic;
+	text-align: left;
+	color: #1a1a1a;
+}
+
+.quehago_index p {
+
+	color: #e6e6e6;
+	font-size: 2.5rem;
+	padding: 10px;
+	text-align: right;
+}
+
+.quehago_index p a{
+
+	color: #1a1a1a;
+	font-size: 2.5rem;
+	font-style: italic;
+
+}
+
+.texto_galeria_index {
+	font-size: 6rem;
+	font-weight: 500;
+	font-style: italic;
+	text-align: center;
+}
+
+.fotos_galeria_index img{
+
+	margin: 25px 0px 25px 0px;
+}
+
+.newsletter_index {
+
+	font-size: 2rem;
+
+}
+
+.newsletter_index div input{
+
+	height: 3rem;
+	border:solid 2px;
+	margin: 5px;
+	padding: 2px;
+	background-color: #e6e6e6;
+
+	display: flex;	
+	flex-direction: column;
+}
+
+.form {
+
+	font-size: 2.5rem;
+}
+
+.div_form_index {
+
+	display: flex;
+	align-content: center;
+
+	}
+
+.enviar_newsletter {
+
+	border:solid 2px;
+	height: 4rem;
+	font-size: 1.5rem;
+
+}
+
+.enviar_newsletter:hover {
+
+	background-color: #1a1a1a;
+	color:#e6e6e6;
+
+}
+
+
+/*SOBRE MI*/
+
+.sobremi_texto {
+
+	text-align: left;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.sobremi_titulo h1{
+
+	font-size: 6rem;
+	font-weight: 500;
+	font-style: italic;
+}
+
+.sobremi_parrafo p {
+
+	font-size: 2rem;
+}
+
+.skills {
+
+	background-color:  #d99cc5;
+	padding: 30px;
+	margin-top: 20px;
+}
+
+.skills_texto h2 {
+
+	font-size: 5rem;
+	font-weight: 500;
+	font-style: italic;
+}
+
+.skills_barras p {
+
+	font-size: 2rem;
+}
+
+.progress {
+
+	height: 2rem;
+	background-color: #d99cc5;
+	border: solid 2px;
+}
+
+.progress-bar {
+
+	background-color: #1a1a1a;
+}
+
+
+.sobremi_redes {
+
+	padding: 30px;
+}
+
+.sobremi_redes h2{
+
+	font-size: 5rem;
+	font-weight: 500;
+	font-style: italic;
+	margin-bottom: 30px;
+}
+
+
+.icono_sobremi {
+
+	background-color:  #e6e6e6;
+	display: flex;
+	justify-content: center;
+
+	height: 4rem;
+	width: 4rem;
+
+}
+
+.sobremi_redes_links {
+
+	display: flex;
+	flex-wrap: row wrap;
+	justify-content: space-around;
+	align-content: flex-end;
+
+}
+
+
+.sobremi_redes_links a{
+
+	color: #1a1a1a;
+	font-size: 2rem;
+	margin-top: 10px;
+}
+
+.sobremi_redes_links a:hover{
+
+	color: #d99cc5;
+	text-decoration: none;
+}
+
+.sobremi_redes_links_individual {
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+/*POSTERS*/
+
+.poster_container {
+
+	margin-bottom: 20px;
+}
+
+.posters_lg img {
+
+	margin:10px 0px 10px 0px;
+}
+
+.posters_mobile img {
+
+	margin:10px 0px 10px 0px;
+}
+
+.posters_disclaimer {
+
+	font-size: 3rem;
+	font-weight: 400;
+	font-style: italic;
+	text-align: center;
+	margin-top: 30px;
+	
+}
+
+
+/*REMERAS*/
+
+
+.remeras_titulo {
+
+	margin-top: 15px;
+	
+}
+
+.remeras_titulo h1{
+
+	font-size: 5rem;
+	font-weight: 500;
+	text-align: center;
+	font-style: italic;
+	padding: 30px;
+}
+
+.remeras_fotos div:hover{
+
+	background-color: #d99cc5;
+
+}
+
+
+.remeras_proximamente {
+
+	background-color: #1a1a1a;
+	padding: 20px;
+	margin-top: 50px;
+
+}
+
+.remeras_proximamente h3 {
+	font-size: 6rem;
+	font-weight: 500;
+	font-style: italic;
+	text-align: center;
+	color:#d99cc5;
+}
+
+.remeras_proximamente h4 {
+	font-size: 3rem;
+	font-weight: 200;
+	text-align: center;
+	color: #e6e6e6;
+	font-family: 'IBM Plex Sans';
+	margin:10px;
+}
+
+.remeras_proximamente h5 {
+	font-size: 3rem;
+	font-weight: 200;
+	text-align: center;
+	color:#d99cc5;
+	font-family: 'IBM Plex Sans';
+}
+
+
+/*CONTACTO*/
+
+
+ form {
+ 	font-size: 2rem;
+ }
+ 
+
+
+ .contacto {
+
+ 	display: flex;
+ 	flex-flow: column wrap;
+
+ 	padding: 2.5vw;
+
+ }
+
+.contacto label {
+
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+	font-size: 2.5rem;
+}
+
+.contacto input {
+
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border: solid 2px;
+	padding: 3px;
+}
+
+.contacto .select_texto {
+
+	font-size: 2.5rem;	
+}
+
+.contacto select{
+
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border: solid 2px;
+	padding: 3px;
+}
+
+
+ .botones_contacto {
+
+ 	display: flex;
+ 	flex-flow: row wrap;
+
+
+ }
+
+ .boton_individual {
+
+ 	width: 250px;
+ 	padding: 10px;
+ 	border: solid 2px;
+
+ 	font-size: 1.5rem;
+ 	font-style: italic;
+ }
+
+ .newsletter {
+
+ 	font-size: 1.5rem;
+ }
+
+.fondo_contacto_titulo {
+
+	background-color: #d99cc5;
+	border-top: solid 3px;
+	border-bottom: solid 3px;
+
+}
+
+
+.titulo_contacto {
+
+
+	font-size: 8rem;
+	font-weight: 500;
+	font-style: italic;
+	text-align: center;
+	padding: 20px;
+
+}
